@@ -4,6 +4,19 @@
 /*    border-color: #D62F01;*/
 /*}*/
 
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+img.socialIcon{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition: transform .8s ease-in-out;
+}
+img.socialIcon:hover{
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .navbar {
 	background-color: #D62F01;
     border-color: #D62F01;
@@ -15,7 +28,7 @@
 
 
 .navbar-brand {
-    color: #FFAA0D;
+    color: #ffffff;
 }
 
 .jumbotron {
@@ -71,8 +84,8 @@
 
     background-color: #D62F01;
    border-color: #D62F01;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   padding-top: 80px;
+   padding-bottom: 80px;
 
 }
 
@@ -119,11 +132,14 @@ img {
 }
 
 .lead {
-    color: #FFAA0D;
+    color: #FFffff;
 }
 
 .led {
-    color: #FFAA0D;
+    color: #FFffff;
 }
 
-.
+#led {
+    color: #FFffff;
+}
+
