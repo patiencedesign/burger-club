@@ -9,8 +9,8 @@
     <meta name="author" content="">
     <link rel="icon" href="images/favicon.ico">
 
-    <title>Burger Club</title>
-
+    <title>Welcome to Burger Club!</title>
+    
     <!-- Bootstrap core CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -29,12 +29,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Burger Club</a>
+          <a class="navbar-brand" href="index.html">Welcome to Burger Club</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="pages/location.html">Location</a></li>
-            <li><a href="images/menu.png">Menu</a></li>         
+            <li><a href="images/menu.png">Menu</a></li>       
+            <li><a href="https://ordering.chownow.com/order/7631/locations?add_cn_ordering_class=true">Order Online</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -44,10 +45,29 @@
       <div class="jumbotron">
           <div class="container">
             <h1>Burgers for the Whole Family</h1>
-            <p> Our Love and passion for comfort food and our Love and passion for hospitality drove us to find Burger Club. We have spared no expense in sourcing our ingredients for the local specialties bought from independent purveyors here in Astoria, to the local fresh rolls baked for us every day, to the ultra deluxe custom blend created specifically for us by celebrated butcher PAT LA FRIEDA.</p>
+            <p> Our love and passion for comfort food and hospitality drove us to found Burger Club. We have spared no expenses in sourcing our ingredients from independent purveyors here in Astoria. Everything from the local specialties such as fresh rolls baked daily to the ultra deluxe custom blend has been created specifically for Burger Club by celebrated butcher Pat LaFrieda.</p>
             <p>
               <a class="btn btn-lg btn-primary" href="images/menu.png" role="button">Read Our Menu</a>
             </p>
+            
+            <div id="burgerCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="http://bnbjoint.com/wp-content/uploads/2015/04/Thunder_Road_full-300dpi.jpg">
+                </div>
+                
+                <div class="item">
+                  <img src="https://static1.squarespace.com/static/58805174f5e231028eb37136/t/58cb717c20099ef564bad9a2/1489727888636/homepage-burger.jpg?format=2500w">
+                </div>
+                
+                <div class="item">
+                  <img src="https://media.timeout.com/images/102945700/image.jpg">
+                </div>
+                
+              </div>
+            </div>
+
         </div>
       </div>
 
@@ -55,11 +75,11 @@
         <div class="container">
             <div class="col-sm-3">
               <p class="lead"> 
-              Visit Us
+              VISIT US
               </p>
-              <p>Address: 32-02 30th Ave, Astoria, NY 11102 </p>
-              <p>Hours:11:30AM–11:30PM</p>
-              <p>Phone: (718) 777-7788</p>
+              <p class="led">Address: 32-02 30th Ave, Astoria, NY 11102 </p>
+              <p class="led">Hours: 11:30AM–11:30PM</p>
+              <p class="led">Phone: (718) 777-7788</p>
             </div>
             <div class="col-sm-3">
             <p class="lead">Contact Us</p>
@@ -70,17 +90,15 @@
             <section id="social">
             <div class="col-sm-6">
         <ul>
-    			<li><img src="images/facebook.svg" alt="Facebook" /></li>
-					<li><img src="images/twitter.svg" alt="Twitter" /></li>
-					<li><img src="images/instagram.svg" alt="Instagram" /></li>
-					<li><img src="images/linkedin.svg" alt="LinkedIn" /></li>
+    			<li><a href="https://www.facebook.com/BurgerClubAstoria/"><img src="images/facebook.svg" alt="Facebook"/></a></li>
+					<li><a href="https://twitter.com/burgerclub30ave?lang=en"><img src="images/twitter.svg" alt="Twitter" /></a></li>
+					<li><a href="https://www.instagram.com/burgerclubnyc/"><img src="images/instagram.svg" alt="Instagram" /></a></li>
+					<li><a href="https://www.linkedin.com/"><img src="images/linkedin.svg" alt="LinkedIn" /></a></li>
 				</ul> 
             </div>
             </section>
         </div>
       </div>
-
-    
 
 
     <!-- Bootstrap core JavaScript
@@ -89,6 +107,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="script.js"></script>
 
   </body>
 </html>

@@ -15,13 +15,20 @@
 
 
 .navbar-brand {
-    color: #FFFFFF;
+    color: #FFAA0D;
 }
 
 .jumbotron {
 	padding: 100px;
-	height: 500px;
-	background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png)
+	height: 600px;
+	background-image: url(http://ucdintegrativemedicine.com/wp-content/uploads/Aug-21_BurgerDay_Header8CUTFB2_35406006.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#burgerCarousel {
+    width: 250px;
+    margin: 0 auto;
 }
 
 .jumbotron h1{
@@ -111,6 +118,12 @@ img {
     background-color: #FFFFFF;
 }
 
- p {
-    
- }
+.lead {
+    color: #FFAA0D;
+}
+
+.led {
+    color: #FFAA0D;
+}
+
+.
