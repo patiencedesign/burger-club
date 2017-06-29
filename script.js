@@ -12,9 +12,25 @@ $(document).ready(function() {
     })
     
     $('#signupButton').click(function(){
-        alert('Hey, ' + $('#userName').val() + 'thank you for signing up! We will send an email to ' +  $('#userEmail').val() + ' shortly!');
+        alert('Hey, ' + $('#userName').val() + ' thank you for contacting us! We will get back to ' +  $('#userEmail').val() + ' shortly!');
     })
     
+
+$('#email').click(function(){
+    $('#form').val()
+})
+
+$('#email').click(function(){
+    window.location.href = 'http://formspree.io/YOUREMAILHERE'
+})
+
+$("button").click(function(){
+    $.getJSON("https://api.twitter.com/1.1/statuses/user_timeline.json", function(result){
+        $.each(result, function(i, field) {
+            $("div").append(field)
+        })
+    })
+})
 
 });
 
